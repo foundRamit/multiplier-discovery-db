@@ -10,3 +10,6 @@ A structured dataset for AI-driven hardware architecture discovery.
 ## Quick Start
 1. Run `python scripts/validate_schema.py` to check architecture integrity.
 2. View `data/performance/master_benchmarks.csv` for the latest synthesis results.
+
+
+//test

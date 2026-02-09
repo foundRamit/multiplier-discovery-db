@@ -1,0 +1,20 @@
+[
+  {
+    "paper_id": "P-01",
+    "title": "A Suggestion for a Fast Multiplier",
+    "author": "C.S. Wallace",
+    "year": 1964,
+    "key_innovation": "Partial product reduction using carry-save adders in a tree structure",
+    "complexity_benefit": "Reduces delay to O(log N)",
+    "linked_archs": ["MULT_008", "MULT_009", "MULT_010", "MULT_011"]
+  },
+  {
+    "paper_id": "P-02",
+    "title": "A Signed Binary Multiplication Technique",
+    "author": "Andrew Booth",
+    "year": 1951,
+    "key_innovation": "Encoding multiplier bits to reduce the number of partial products",
+    "complexity_benefit": "Reduces partial products by 50%",
+    "linked_archs": ["MULT_004", "MULT_005", "MULT_006", "MULT_007"]
+  }
+]

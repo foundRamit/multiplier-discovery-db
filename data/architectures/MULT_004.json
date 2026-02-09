@@ -1,0 +1,14 @@
+{
+  "arch_id": "MULT_004",
+  "design_name": "Booth Radix-4 Multiplier",
+  "bit_width": 8,
+  "taxonomy": {
+    "category": "Booth",
+    "radix": 4,
+    "reduction_method": "Partial Product Reduction"
+  },
+  "metadata": {
+    "source_paper": "A Signed Binary Multiplication Technique (Booth, 1951)",
+    "rtl_language": "Verilog"
+  }
+}

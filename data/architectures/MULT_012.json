@@ -1,0 +1,14 @@
+{
+  "arch_id": "MULT_012",
+  "design_name": "Dadda Tree Multiplier",
+  "bit_width": 8,
+  "taxonomy": {
+    "category": "Tree",
+    "radix": 2,
+    "reduction_method": "Dadda Reduction"
+  },
+  "metadata": {
+    "source_paper": "Some Schemes for Parallel Multipliers (Dadda, 1965)",
+    "rtl_language": "Verilog"
+  }
+}

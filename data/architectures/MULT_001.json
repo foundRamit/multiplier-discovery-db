@@ -1,0 +1,14 @@
+{
+  "arch_id": "MULT_001",
+  "design_name": "Ripple Carry Array Multiplier",
+  "bit_width": 8,
+  "taxonomy": {
+    "category": "Array",
+    "radix": 2,
+    "reduction_method": "Ripple Carry"
+  },
+  "metadata": {
+    "source_paper": "Standard Textbook - Parhami",
+    "rtl_language": "Verilog"
+  }
+}

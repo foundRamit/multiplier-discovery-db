@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Multiplier Architecture Schema",
+  "type": "object",
+  "properties": {
+    "arch_id": { "type": "string", "description": "Unique ID, e.g., MULT_001" },
+    "design_name": { "type": "string", "description": "Common name (e.g., Wallace Tree)" },
+    "bit_width": { "type": "integer", "enum": [8, 16, 32, 64] },
+    "taxonomy": {
+      "type": "object",
+      "properties": {
+        "category": { "type": "string", "enum": ["Serial", "Array", "Tree", "Booth"] },
+        "radix": { "type": "integer", "default": 2 },
+        "reduction_method": { "type": "string", "description": "e.g., Carry-Save, Dadda" }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "source_paper": { "type": "string" },
+        "rtl_language": { "type": "string", "default": "Verilog" }
+      }
+    }
+  },
+  "required": ["arch_id", "design_name", "bit_width", "taxonomy"]
+}

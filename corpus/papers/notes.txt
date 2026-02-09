@@ -1,0 +1,5 @@
+Booth Radix-4: "Uses 3-bit windows with 1-bit overlap."
+
+Wallace Tree: "Reduces each column as soon as possible."
+
+Dadda Tree: "Reduces the number of partial products to the next lower 'Bucklin' constant; more gate-efficient than Wallace."

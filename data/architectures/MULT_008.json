@@ -1,0 +1,14 @@
+{
+  "arch_id": "MULT_008",
+  "design_name": "Wallace Tree Multiplier",
+  "bit_width": 8,
+  "taxonomy": {
+    "category": "Tree",
+    "radix": 2,
+    "reduction_method": "Carry-Save Tree (Wallace)"
+  },
+  "metadata": {
+    "source_paper": "A Suggestion for a Fast Multiplier (Wallace, 1964)",
+    "rtl_language": "Verilog"
+  }
+}
